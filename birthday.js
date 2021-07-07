@@ -4,7 +4,7 @@ let m = prompt("Enter your Month:", "Jan/Feb/Mar/Apr...");
 let d = prompt("Enter your Date:", "1/2/3/4/5...");
 let y = prompt("Enter your Year:", "2021,2022...");
    
-text = m+" "+d+", "+y+" 00:01:00";
+text = m+" "+d+", "+y+" 00:00:00";
 
 var countDownDate = new Date(text).getTime();
 
